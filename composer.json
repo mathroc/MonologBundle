@@ -21,7 +21,7 @@
         "symfony/dependency-injection": "~2.3",
         "symfony/config": "~2.3",
         "symfony/http-kernel": "~2.3",
-        "monolog/monolog": "~1.6"
+        "monolog/monolog": "dev-zmq"
     },
     "require-dev": {
         "symfony/yaml": "~2.3",
@@ -35,5 +35,11 @@
         "branch-alias": {
             "dev-master": "2.4.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mathroc/monolog"
+        }
+    ]
 }
